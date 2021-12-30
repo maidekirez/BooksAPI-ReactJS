@@ -2,7 +2,7 @@ function About(props) {
   return (
     <>
       <div className="container">
-        <h1>About</h1>
+        <h1 className="text-center my-3">About</h1>
         <p>
           An API containing information about books is used in this project.
         </p>
