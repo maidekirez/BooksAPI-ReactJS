@@ -23,7 +23,7 @@ function BookSearch(props) {
 
   return (
     <>
-      <h1>BookSearch</h1>
+      <h1 className="text-center my-3">BookSearch</h1>
 
       {data
         .filter((item) => `${searchName}`.includes(item.name))
