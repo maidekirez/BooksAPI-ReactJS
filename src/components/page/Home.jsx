@@ -10,7 +10,7 @@ function Home(props) {
 
     return(
     <>
-      <h1>Home</h1>
+      <h1 className="text-center my-3">Home</h1>
       <form>
         <input
           type="text"
